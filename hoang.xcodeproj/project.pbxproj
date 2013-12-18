@@ -20,8 +20,6 @@
 		C30E2DC818617C6000C6243A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30E2DC718617C6000C6243A /* XCTest.framework */; };
 		C30E2DC918617C6000C6243A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30E2DA518617C6000C6243A /* Foundation.framework */; };
 		C30E2DCA18617C6000C6243A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30E2DA918617C6000C6243A /* UIKit.framework */; };
-		C30E2DD218617C6100C6243A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C30E2DD018617C6100C6243A /* InfoPlist.strings */; };
-		C30E2DD418617C6100C6243A /* hoangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30E2DD318617C6100C6243A /* hoangTests.m */; };
 		C30E2DDF1861862200C6243A /* kinhnghiem.m in Sources */ = {isa = PBXBuildFile; fileRef = C30E2DDE1861862200C6243A /* kinhnghiem.m */; };
 		C30E2DE218618B0C00C6243A /* TracNghiem.m in Sources */ = {isa = PBXBuildFile; fileRef = C30E2DE118618B0C00C6243A /* TracNghiem.m */; };
 		C30E2DE51861B30600C6243A /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = C30E2DE41861B30600C6243A /* Background.m */; };
@@ -38,20 +36,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = C30E2DA118617C6000C6243A;
 			remoteInfo = hoang;
-		};
-		C30E2E3F1861D99500C6243A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C30E2E3A1861D99300C6243A /* demoView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C30E2DFF1861D99200C6243A;
-			remoteInfo = demoView;
-		};
-		C30E2E411861D99500C6243A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C30E2E3A1861D99300C6243A /* demoView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C30E2E231861D99300C6243A;
-			remoteInfo = demoViewTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,9 +57,6 @@
 		C30E2DC018617C6000C6243A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C30E2DC618617C6000C6243A /* hoangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hoangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30E2DC718617C6000C6243A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C30E2DCF18617C6100C6243A /* hoangTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hoangTests-Info.plist"; sourceTree = "<group>"; };
-		C30E2DD118617C6100C6243A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C30E2DD318617C6100C6243A /* hoangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hoangTests.m; sourceTree = "<group>"; };
 		C30E2DDD1861862200C6243A /* kinhnghiem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kinhnghiem.h; sourceTree = "<group>"; };
 		C30E2DDE1861862200C6243A /* kinhnghiem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kinhnghiem.m; sourceTree = "<group>"; };
 		C30E2DE018618B0C00C6243A /* TracNghiem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracNghiem.h; sourceTree = "<group>"; };
@@ -87,7 +68,6 @@
 		C30E2DEB1861BEFE00C6243A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../../../bg.png; sourceTree = "<group>"; };
 		C30E2DF31861CE4A00C6243A /* WebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowser.h; sourceTree = "<group>"; };
 		C30E2DF41861CE4A00C6243A /* WebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowser.m; sourceTree = "<group>"; };
-		C30E2E3A1861D99300C6243A /* demoView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = demoView.xcodeproj; path = demoView/demoView.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +97,7 @@
 		C30E2D9918617C6000C6243A = {
 			isa = PBXGroup;
 			children = (
-				C30E2E3A1861D99300C6243A /* demoView.xcodeproj */,
 				C30E2DAB18617C6000C6243A /* hoang */,
-				C30E2DCD18617C6000C6243A /* hoangTests */,
 				C30E2DA418617C6000C6243A /* Frameworks */,
 				C30E2DA318617C6000C6243A /* Products */,
 			);
@@ -180,24 +158,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C30E2DCD18617C6000C6243A /* hoangTests */ = {
-			isa = PBXGroup;
-			children = (
-				C30E2DD318617C6100C6243A /* hoangTests.m */,
-				C30E2DCE18617C6100C6243A /* Supporting Files */,
-			);
-			path = hoangTests;
-			sourceTree = "<group>";
-		};
-		C30E2DCE18617C6100C6243A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C30E2DCF18617C6100C6243A /* hoangTests-Info.plist */,
-				C30E2DD018617C6100C6243A /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		C30E2DE61861B57100C6243A /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,15 +166,6 @@
 				C30E2DE81861B5D700C6243A /* 2.jpg */,
 			);
 			name = Images;
-			sourceTree = "<group>";
-		};
-		C30E2E3B1861D99300C6243A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C30E2E401861D99500C6243A /* demoView.app */,
-				C30E2E421861D99500C6243A /* demoViewTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +231,6 @@
 			mainGroup = C30E2D9918617C6000C6243A;
 			productRefGroup = C30E2DA318617C6000C6243A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C30E2E3B1861D99300C6243A /* Products */;
-					ProjectRef = C30E2E3A1861D99300C6243A /* demoView.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C30E2DA118617C6000C6243A /* hoang */,
@@ -293,23 +238,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		C30E2E401861D99500C6243A /* demoView.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = demoView.app;
-			remoteRef = C30E2E3F1861D99500C6243A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C30E2E421861D99500C6243A /* demoViewTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = demoViewTests.xctest;
-			remoteRef = C30E2E411861D99500C6243A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C30E2DA018617C6000C6243A /* Resources */ = {
@@ -330,7 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30E2DD218617C6100C6243A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30E2DD418617C6100C6243A /* hoangTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,14 +318,6 @@
 				C30E2DBB18617C6000C6243A /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		C30E2DD018617C6100C6243A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C30E2DD118617C6100C6243A /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -568,6 +486,7 @@
 				C30E2DD918617C6100C6243A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C30E2DDA18617C6100C6243A /* Build configuration list for PBXNativeTarget "hoangTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +495,7 @@
 				C30E2DDC18617C6100C6243A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
