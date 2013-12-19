@@ -16,17 +16,19 @@
 
 @implementation MainViewController{
     NSArray *tableData;
+    //NSArray *colorTableData;
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
     self.title = @"main";
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"calendar_photo.jpg"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg2.png"]];
     
     //add data for table view
     tableData = [NSArray arrayWithObjects:@"Egg Benedict",@"Mushrom Risotto",@"Full Breakfast",@"Hamburger", nil];
     
+   // colorTableData = [NSArray arrayWithObjects:@"yellowColor",@"redColor",@"blueColor",@"greencolor", nil];
     
     // Change button color
     _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
@@ -72,9 +74,11 @@
     cell.title.text = [tableData objectAtIndex:indexPath.row];
     cell.thumbnail.image = [UIImage imageNamed:@"calendar.png"];
     cell.right.text = [NSString stringWithFormat:@"%i",indexPath.row+1];
+    cell.leftColor.backgroundColor = [UIColor redColor];
     
     //custom border
     //cell.layer.cornerRadius:100.0];
+    cell.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.5];
 
     return cell;
 }
