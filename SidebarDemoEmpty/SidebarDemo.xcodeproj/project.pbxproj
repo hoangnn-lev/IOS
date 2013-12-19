@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C3A2BA7C1862231A00ED79AD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2BA7A1862231A00ED79AD /* SWRevealViewController.m */; };
+		C3A2BA801862AF3600ED79AD /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A2BA7F1862AF3600ED79AD /* SimpleTableCell.xib */; };
+		C3A2BA831862B39300ED79AD /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2BA821862B39300ED79AD /* SimpleTableCell.m */; };
 		F4EECF12177C99F400778578 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF11177C99F400778578 /* UIKit.framework */; };
 		F4EECF14177C99F400778578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF13177C99F400778578 /* Foundation.framework */; };
 		F4EECF16177C99F400778578 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EECF15177C99F400778578 /* CoreGraphics.framework */; };
@@ -45,6 +47,9 @@
 /* Begin PBXFileReference section */
 		C3A2BA7A1862231A00ED79AD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		C3A2BA7B1862231A00ED79AD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C3A2BA7F1862AF3600ED79AD /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		C3A2BA811862B39300ED79AD /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		C3A2BA821862B39300ED79AD /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
 		F4EECF0E177C99F400778578 /* SidebarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EECF11177C99F400778578 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4EECF13177C99F400778578 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +111,9 @@
 		F4EECF05177C99F400778578 = {
 			isa = PBXGroup;
 			children = (
+				C3A2BA811862B39300ED79AD /* SimpleTableCell.h */,
+				C3A2BA821862B39300ED79AD /* SimpleTableCell.m */,
+				C3A2BA7F1862AF3600ED79AD /* SimpleTableCell.xib */,
 				F4EECF71177FE9BA00778578 /* MapKit.framework */,
 				F4EECF6F177FE9B400778578 /* CoreLocation.framework */,
 				F4EECF17177C99F400778578 /* SidebarDemo */,
@@ -264,6 +272,7 @@
 				F4EECF61177F384900778578 /* wishlist.png in Resources */,
 				F4EECF63177F3CAB00778578 /* tag.png in Resources */,
 				F4EECF67177F4AB000778578 /* nav_bg.png in Resources */,
+				C3A2BA801862AF3600ED79AD /* SimpleTableCell.xib in Resources */,
 				F4EECF6A177F4C0200778578 /* menu.png in Resources */,
 				F4EECF6B177F4C0200778578 /* menu@2x.png in Resources */,
 				F4FE87FB1780081300CB3DA8 /* comments_photo.jpg in Resources */,
@@ -287,6 +296,7 @@
 				F4EECF2E177C99F400778578 /* MainViewController.m in Sources */,
 				F4EECF4A177DF87700778578 /* SidebarViewController.m in Sources */,
 				F4EECF6E177FD51400778578 /* MapViewController.m in Sources */,
+				C3A2BA831862B39300ED79AD /* SimpleTableCell.m in Sources */,
 				F4EECF75177FF90600778578 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
