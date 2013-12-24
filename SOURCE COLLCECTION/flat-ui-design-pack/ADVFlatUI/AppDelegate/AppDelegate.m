@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  SidebarDemo
+//  ADVFlatUI
 //
-//  Created by Simon on 28/6/13.
-//  Copyright (c) 2013 Appcoda. All rights reserved.
+//  Created by Tope on 30/05/2013.
+//  Copyright (c) 2013 App Design Vault. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -12,17 +12,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     
-    UIImage *navBackgroundImage = [UIImage imageNamed:@"nav_bg"];
-    [[UINavigationBar appearance] setBackgroundImage:navBackgroundImage forBarMetrics:UIBarMetricsDefault];
-    //[[UINavigationBar appearance] setBarTintColor:[UIColor yellowColor]];
-    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           [UIColor colorWithRed:10.0/255.0 green:10.0/255.0 blue:10.0/255.0 alpha:1.0], UITextAttributeTextColor,
-                                                           [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8],UITextAttributeTextShadowColor,
-                                                           [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],
-                                                           UITextAttributeTextShadowOffset,
-                                                           [UIFont fontWithName:@"Helvetica-Light" size:20.0], UITextAttributeFont, nil]];
+    UIViewController* initialViewController = [storyboard instantiateViewControllerWithIdentifier:@"MainViewController"];
+    
+    self.window.rootViewController  = initialViewController;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

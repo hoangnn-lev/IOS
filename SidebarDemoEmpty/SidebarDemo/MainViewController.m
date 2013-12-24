@@ -74,7 +74,7 @@
     cell.title.text = [tableData objectAtIndex:indexPath.row];
     cell.thumbnail.image = [UIImage imageNamed:@"calendar.png"];
     cell.right.text = [NSString stringWithFormat:@"%i",indexPath.row+1];
-    cell.leftColor.backgroundColor = [UIColor redColor];
+    //cell.leftColor.backgroundColor = [UIColor redColor];
     
     //custom border
     //cell.layer.cornerRadius:100.0];
